@@ -1,0 +1,37 @@
+/* Official Autos Magusa identity overrides */
+.header .brand img {
+  content: url('/logo-magusa-oficial.jpg');
+  width: 178px !important;
+  height: auto !important;
+  max-height: 58px !important;
+  object-fit: contain !important;
+  border-radius: 0 !important;
+}
+
+.header .brand span {
+  display: none !important;
+}
+
+.footer-brand img {
+  content: url('/logo-magusa-oficial.jpg');
+  width: 210px !important;
+  height: auto !important;
+  max-height: 72px !important;
+  object-fit: contain !important;
+  border-radius: 0 !important;
+}
+
+.footer-brand strong {
+  display: none !important;
+}
+
+@media (max-width: 760px) {
+  .header .brand img {
+    width: 145px !important;
+    max-height: 48px !important;
+  }
+
+  .footer-brand img {
+    width: 185px !important;
+  }
+}
