@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title">
+  <title id="title">Autos Magusa</title>
+  <defs>
+    <linearGradient id="r" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ff2b35"/>
+      <stop offset="1" stop-color="#d5000b"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="24" fill="#111114"/>
+  <path d="M19 88V31h15v44h13V46l25-19 28 17v42H83V52L72 45 62 53v35H47V88H19Z" fill="url(#r)"/>
+  <path d="M72 45 84 54v17H72V45Z" fill="#ffffff" opacity=".92"/>
+</svg>
